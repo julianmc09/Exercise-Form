@@ -1,0 +1,96 @@
+.body{
+    background-color: #1B1F32;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.text1{
+    font-family: Arial, sans-serif;
+}
+
+.list{
+    list-style: none;
+    padding:0;
+}
+
+.list li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    background-color: #FD6C50;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-right: 10px;
+}
+
+.button{
+    text-align: center;
+    background-color:#1B1F32;
+    color: white;
+    padding: 20px 70px;
+    border:midnightblue;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.email{
+    display: block;
+    margin-left: 20px;
+    border-style:solid;
+    border-width: 1.8px;
+    border-radius: 8px;
+    padding: 20px 75px;
+    
+}
+
+.label{
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 20px;;
+}
+
+.title{
+
+    display: flex;
+    justify-content: center;
+    font-family:sans-serif;font-weight: 540;
+    color:#1B1F32;
+    font-size: 44px;
+}
+
+.container{
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    padding: 20px;
+}
+
+.image{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+.text{
+    margin-left: 20px;
+}
+
+@media(max-width: 760px){
+
+}
