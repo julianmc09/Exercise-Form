@@ -76,7 +76,9 @@
 .container{
     background-color: white;
     border-radius: 25px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
     padding: 20px;
 }
 
@@ -93,6 +95,7 @@
 
 @media(max-width: 760px){
     .container{
+        display: flex;
         flex-direction: column-reverse;
     }
 
@@ -115,8 +118,11 @@
         margin-left: 0  ;
         padding: 20px 75px;
     }
+}
 
-    
-
-
+@media(max-width: 1370px) and (max-height:1024px){
+    .container{
+        display: flex;
+        height: 100%;
+    }
 }
