@@ -1,3 +1,4 @@
+/* Full screen style */
 .body{
     background-color: #1B1F32;
     margin: 0;
@@ -5,6 +6,28 @@
     justify-content: center;
     align-content: center;
     height: 100vh;
+}
+
+/* Style of the content displayed in the center */
+.container{
+    background-color: white;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.main-title{
+    display: grid;
+    justify-content: center;
+    font-family:sans-serif;font-weight: 540;
+    color:#1B1F32;
+    font-size: 44px;
+}
+
+.text{
+    margin-left: 20px;
 }
 
 .main-text{
@@ -23,6 +46,7 @@
     font-family: Arial, sans-serif;
 }
 
+/* Style for custom bullets */
 .icons{
     width: 20px;
     height: 20px;
@@ -64,33 +88,13 @@
     margin-left: 20px;;
 }
 
-.main-title{
-
-    display: grid;
-    justify-content: center;
-    font-family:sans-serif;font-weight: 540;
-    color:#1B1F32;
-    font-size: 44px;
-}
-
-.container{
-    background-color: white;
-    border-radius: 25px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px;
-    padding: 20px;
-}
-
 .image{
     margin-left: 40px;
     margin-right: 5px;
 }
 
-.text{
-    margin-left: 20px;
-}
 
+/* Mobile responsive for all content */
 @media(max-width: 760px){
     .container{
         display: flex;
@@ -110,8 +114,6 @@
     .input-field{
         margin-left: 0;
         text-align:center
-        
-        
     }
 
     .button-suscribe{
